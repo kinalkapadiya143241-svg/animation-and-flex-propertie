@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+h2{
+text-align: center;
+}
+.photo
+{
+width:15%;
+}
+.photo img{
+width:100%;
+background-color:lightgray;
+border-radius: 5px;
+}
+.photo img:hover
+{
+transform: scale(1.05);
+}
+.gallery
+{
+display:flex;
+gap:30px;
+flex-wrap: wrap;
+justify-content: center;
+}
+@media (max-width:700px) {
+.photo
+{
+width: 40%;
+}
+}
+@media (max-width:400px) {
+.photo
+{
+width: 80%;
+}
+}
+</style>
+</head>
+<body>
+<h2>Photo Gallery</h2>
+<div class="gallery">
+<div class="photo"><img src="https://i.pinimg.com/736x/7b/af/77/7baf775d331f1d01b021e52acf1811e0.jpg" alt="Photo 1"></div>
+<div class="photo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQku6xq4wdE3Mp0V5gN4IelX_sQK0U6WSKW49Tr0ZHxA&s=10" 
+alt="Photo 2"></div>
+
+<div class="photo"><img
+src="https://i.pinimg.com/474x/e2/1b/4a/e21b4a0b7e74cb3054bd43680b154f9b.jpg"
+alt="Photo 3"></div>
+
+<div class="photo"><img src="https://encrypted-
+tbn0.gstatic.com/images?q=tbn:ANd9GcTA5NClbF1t4vq3kzwkqsQ-
+Bg2nU5oyZAEustygFDQubBFF2tbIluqtAAia&s=10" alt="Photo 4"></div>
+
+<div class="photo"><img
+src="https://t4.ftcdn.net/jpg/13/80/97/77/360_F_1380977722_ORGOO2ZNDTzisEVcxqp
+NMPLSl7YdPF9F.jpg" alt="Photo 5"></div>
+
+<div class="photo"><img src="https://thumbs.dreamstime.com/b/animated-lion-
+sitting-white-background-inspired-raphael-lacoste-seth-macfarlane-cartoon-lion-
+rendered-vray-301917434.jpg" alt="Photo 6"></div>
+
+<div class="photo"><img
+
+src="https://static.vecteezy.com/system/resources/previews/050/445/519/non_2x/a-
+cartoon-cat-with-a-big-smile-on-its-face-vector.jpg" alt="Photo 6"></div>
+
+<div class="photo"><img
+
+src="https://media.istockphoto.com/id/1433501792/vector/deer-cartoon-animal-
+illustration.jpg?s=612x612&w=0&k=20&c=RH7J9pHvrGDo5md6wK8qHIqH-
+gTNC2zP7WJgjOZnRHg=" alt="Photo 6"></div>
+
+</div>
+</body>
+</html>
